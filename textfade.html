@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="textfade.js"></script>
+	<script>
+	$(function(){
+		new TextFade([document.getElementById('main_box')]);
+	});
+	</script>
+	<style>
+		.main-box {float: left; width: 150px;}
+		.letter_9{color:#555}
+		.letter_8{color:#666}
+		.letter_7{color:#777}
+		.letter_6{color:#888}
+		.letter_5{color:#999}
+		.letter_4{color:#aaa}
+		.letter_3{color:#bbb}
+		.letter_2{color:#ccc}
+		.letter_1{color:#ddd}
+		.letter_0{color:#eee}
+	</style>
+	<title>test</title>
+</head>
+<body>
+	<div class="main-box" id="main_box">
+		<p>main 1</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		</p>
+	</div>
+</body>
+</html>
